@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>form</title>
+</head>
+<body>
+	<form name="formdk">
+		Họ và tên: <input type="text" name="hoTen" value="" placeholder="nhập họ và tên">
+		<br>
+		<!-- chọn nhiều thuộc tính -->
+		Những con vật bạn thích: 
+		<br>
+	    <input type="checkbox" name="vatNuoi" checked="">Mèo <br>
+	    <input type="checkbox" name="vatNuoi">chó<br>
+	    <input type="checkbox" name="vatNuoi">cá<br>
+	    <input type="checkbox" name="vatNuoi">khỉ<br>
+	    <!-- chọn 1 lựa chọn -->
+	    Giới tính: 
+	    <input type="radio" name="gioiTinh" value="nam" placeholder="">Nam
+	    <input type="radio" name="gioiTinh" value="nu" placeholder="" checked="">Nữ <br>
+	    <!-- upfile -->
+	    upfile: 
+	    <input type="file" name="file" value="file">
+	    <br>
+	    <!-- password -->
+	    Mật khẩu: 
+	    <input type="password" name="mk">
+	    <br>
+	    Ngày sinh: 
+	    <input type="date">
+	    
+	    <!-- chọn 1 lựa chọn, có nhiều thông tin -->
+	    Tỉnh: 
+	    <select name="" id="">
+	    	<option value="HN">Hà Nội</option>
+	        <option value="NĐ">Nam Định</option>
+	        <option value="HP">Hải Phòng</option>
+	        <option value="BN" selected="">Bắc Ninh</option>
+	    </select>
+	    <br>
+	    Ý kiến khác: 
+	    <textarea name="khac" rows="5" cols="30" placeholder="Ý kiến khác..."></textarea>
+	    <!-- button -->
+	    <br>
+	    Button:
+	    <input type="submit" name="btn" value="Submit">
+	    <br>
+	    <input type="reset" name="nhapLai" >
+
+	</form>
+</body>
+</html>
