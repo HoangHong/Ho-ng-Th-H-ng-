@@ -1,0 +1,28 @@
+ #background{
+	 background-color: #81ecec; 
+	width: 80%;
+	height: 500px;
+	/* nhóm block có thuộc tính width, height , background */
+	/* nhóm h1-h6, div, p */
+	/* background-image: url('images/bite.gif');
+	
+	background-attachment: scroll;
+	background-position: 10px 50px; */
+     /* background: #81ecec url('images/bite.gif') repeat-x scroll 10px 50px; */
+    background-image: url('images/bite.gif');
+    background-repeat: no-repeat;
+	font-family: Helvetica;
+	font-size: 30px;
+	font-style: italic;
+	font-weight: 900;
+	text-indent: 50px;
+	text-align: center;
+	text-decoration: none;
+} 
+ a{
+	text-decoration: none;
+
+}
+.sp{
+	display:block;
+} 

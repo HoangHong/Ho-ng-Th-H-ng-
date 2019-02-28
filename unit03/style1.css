@@ -1,0 +1,13 @@
+ 
+ h1{
+ 	background-color: #81ecec; 
+	width: 10%;
+	height: 80px;
+	display: inline-block;
+ }
+ h1:hover{
+ 	color: #ff7675;
+ 	height: 100px;
+ 	width: 20%;
+ 	background-color:#55efc4;
+ }

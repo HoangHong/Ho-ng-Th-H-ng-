@@ -1,0 +1,156 @@
+*{
+	font-family: Arial;
+	font-size: 12px;
+}
+body{
+   background-image: url('images/tuyet.jpg');
+   background-repeat: repeat;
+
+}
+/* ============BEGIN WRAPPER============ */
+#wrapper{
+	background-color:white;
+	width: 795px;
+	height:auto;
+	margin: 0 250px;
+}
+/* ============BEGIN HEADER============= */
+#header{
+
+}
+
+/* ============BEGIN NAVIGATION========= */
+#navbar{
+	background-image: url('images/nav.gif');
+	background-repeat: repeat-x;
+
+}
+#navbar ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+
+}
+#navbar li{
+     display: inline-block;
+}
+#navbar li a{
+	text-decoration: none;
+	display: inline-block;
+	padding:10px;
+	color: #e67e22;
+}
+#navbar li:hover{
+	background-color: #f1c40f;
+	
+}
+#navbar li a:hover{
+	color: #ecf0f1;
+}
+/* ============BEGIN CONTAINER========== */
+hr{
+	border-color: black;
+	margin-bottom: 20px;
+}
+#container{
+	 background-color:white;
+
+}
+.main{
+	float: left;
+}
+.main ul{
+	list-style-type: none;
+	margin-left: -40px;
+}
+.main a{
+	text-decoration: none;
+}
+#left-container{
+	width: 25%;
+
+}
+.space{
+	margin-bottom: 70px;
+	margin-right: 10px;
+}
+.space1{
+	border:solid 1px #95afc0;
+}
+ .space a img{
+	margin-top: 20px;
+} 
+.child-space li {
+   padding-top:10px;
+}
+.anh{
+	background-image: url('images/menu_bar.gif');
+	background-repeat: no-repeat;
+	color: white;
+	padding-left:15px;
+    padding-top: 8px;
+
+}
+#middle-container{
+    width: 50%;
+
+}
+.middle1{
+	background-color: #ffbe76;
+	line-height: 20px;
+	padding: 10px;
+	border-radius: 10px;
+	margin-right: 10px;
+	margin-bottom: 30px;
+
+}
+.middle1 i{
+	color: white;
+}
+.middle-color{
+	color:  #ffbe76;
+}
+.middle2{
+	margin-bottom: 30px;
+	margin-right: 10px;
+}
+.middle2-right h1{
+     text-align: right;
+}
+.middle-text{
+	text-align: right;
+}
+.anh-left{
+	background-image: url('images/main_bar_left.gif');
+	color: white;
+	background-repeat: no-repeat;
+	padding-left:20px;
+	padding-top:8px;
+
+}
+.anh-left2 img{
+	height: 190px;
+}
+
+#right-container{
+   width: 25%;
+}
+.anh-right1{
+	margin-bottom:50px;
+
+}
+.anh-right{
+	background-image: url('images/main_bar_right.gif');
+	padding: 8px;
+	background-repeat: no-repeat;
+	color: white;
+}
+/* ============BEGIN FOOTER============= */
+#footer{
+	height: 50px;
+	clear: left;
+	background-color: #535c68;
+	text-align: center;
+	padding-top: 20px;
+	color: white;
+}
