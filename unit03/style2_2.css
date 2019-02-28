@@ -1,0 +1,15 @@
+div{
+	width: 53%;
+	height: 200px;
+	background-color: #ecf0f1;
+}
+a{
+	text-decoration: none;
+
+}
+p:hover{
+	color: #9b59b6;
+}
+a:hover{
+	color: #c0392b;
+}

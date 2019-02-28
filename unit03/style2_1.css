@@ -1,0 +1,20 @@
+div{
+	border: solid 1px black;
+   display: inline-block;
+   width: 15%;
+   height:180px;
+   text-align: center;
+   cursor: pointer;
+}
+div:hover{
+	border: solid 1px #eb4d4b;
+}
+.color-text{
+	color: #f9ca24;
+}
+.color-price{
+	color: #686de0;
+}
+p:hover{
+	color: #8e44ad;
+}
