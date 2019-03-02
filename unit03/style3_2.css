@@ -17,7 +17,6 @@ body{
 /* ============BEGIN HEADER============= */
 #header{
 
-
 }
 
 /* ============BEGIN NAVIGATION========= */
@@ -68,21 +67,41 @@ hr{
 	text-decoration: none;
 }
 #left-container{
-	width: 25%;
+	width: 20%;
 
 }
 .space{
 	margin-bottom: 70px;
 	margin-right: 10px;
+
 }
 .space1{
 	border:solid 1px #95afc0;
+
+
 }
- .space a img{
-	margin-top: 20px;
+p{
+	line-height: 20px;
+}
+/*  .space a{
+	margin-left: 10px;
+
+} */
+
+.space1 h1{
+	margin-top: 0px;
+}
+ .space1_2 {
+	margin-top: 0px;
+}
+.space1_3{
+	margin-top: 10px;
 } 
+
 .child-space li {
    padding-top:10px;
+   padding-left: 10px;
+
 }
 .anh{
 	background-image: url('images/menu_bar.gif');
@@ -90,10 +109,11 @@ hr{
 	color: white;
 	padding-left:15px;
     padding-top: 8px;
+    background-size: 100%;
 
 }
 #middle-container{
-    width: 50%;
+    width: 60%;
 
 }
 .middle1{
@@ -130,11 +150,11 @@ hr{
 
 }
 .anh-left2 img{
-	height: 190px;
+	height: 150px;
 }
 
 #right-container{
-   width: 25%;
+   width: 20%;
 }
 .anh-right1{
 	margin-bottom:50px;
