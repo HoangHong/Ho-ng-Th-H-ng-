@@ -1,0 +1,44 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+ul{
+	list-style-type: none;
+}
+.menu-lv1{
+	float: left;
+	position: relative;
+}
+.menu{
+    width: 100px;
+    height: 50px;
+    border: 1px solid white;
+    padding: 2px;
+    line-height: 50px;
+    text-align: center;
+    background-color: green;
+    color: white;
+}
+.menu1{
+	width: 100px;
+    height: 20px;
+    border: 1px solid white;
+    padding: 2px;
+    line-height: 20px;
+    text-align: center;
+    background-color: green;
+    color: white;
+}
+.parent-lv2{
+	display: none;
+	position: absolute;
+	top: 55px;
+	left: -2px;
+}
+.menu-lv1:hover .parent-lv2{
+	display: block;
+}
+.menu:hover{
+	background-color: orange;
+}

@@ -1,0 +1,51 @@
+/* định nghĩa font chữ */
+@font-face{
+	font-family: 'font-thu-phap';
+	src: url('font/VNI-Diudang.ttf');
+}
+*{
+	font-family: 'VT323', monospace;
+	font-size: 20px;
+}
+#box-model{
+	/* border-width: 1px;
+	border-color: red;
+	border-style: solid; */
+	margin: 20px;
+	padding: 30px;
+	font-family: 'VT323', monospace;
+	/* font-family: 'font-thu-phap'; */
+	line-height: 20px;
+    font-size: 20px;
+    color: black;
+	
+
+}
+ .fab{
+	font-size: 50px;
+}
+.rec{
+	width: 700px;
+	height: 300px;
+	background-color: #ccc; 
+   border: 1px dotted red ;
+
+}
+#top{
+	position: relative;
+}
+.child{
+	width: 200px;
+	height: 100px;
+	position: absolute;
+}
+#child1{
+	background-color: #3498db;
+	left: 50px;
+	top: 30px;
+	z-index: 1;
+}
+#child2{
+	background-color: green;
+	
+}

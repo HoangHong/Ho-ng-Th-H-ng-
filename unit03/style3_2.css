@@ -90,12 +90,11 @@ p{
 
 .space1 h1{
 	margin-top: 0px;
-}
- .space1_2 {
-	margin-top: 0px;
+	height: 30px;
 }
 .space1_3{
 	margin-top: 10px;
+	margin-bottom: 10px;
 } 
 
 .child-space li {
