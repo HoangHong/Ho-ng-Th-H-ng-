@@ -116,6 +116,10 @@ button{
     text-align: center;
     color: #ffffffb3;
 }
+.news:hover{
+	width: 32%;
+	background-color: #81ecec;
+}
 
 
 
