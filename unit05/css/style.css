@@ -1,0 +1,133 @@
+*{
+	font-family: 'Lobster', cursive;
+	margin: 0px;
+	padding: 0px;
+}
+
+ul{
+	list-style-type: none;
+
+}
+a{
+	text-decoration: none;
+}
+.full{
+	width: 100%;
+}
+.container{
+	width: 80%;
+	margin: 0 auto;
+}
+.left{
+	float: left;
+	/* margin-top: 5px; */
+
+}
+.right{
+	float: right;
+	position: relative;
+	/* margin-top: 5px; */
+}
+#magazine{
+	height: 30px;
+	background-color: #111;
+}
+#logo img{
+	
+	height: 72px;
+	float: left
+	
+}
+#logo{
+	background-color: #f0a52b;
+	height: 80px;
+}
+#menu{
+	clear: left;
+
+}
+.fa-home{
+	padding: 10px;
+}
+#truy-cap-nhanh li{
+	float: left;
+	display: inline-block;
+
+
+}
+
+#truy-cap-nhanh a{
+	color: white;
+	padding: 5px;
+
+}
+.fa-star{
+	color: orange;
+	margin-right: 4px;
+}
+.right input{
+	background-color: black;
+	border: 0px;
+	color: white;
+}
+
+.fa-search{
+	color: white;
+	position: absolute;
+	z-index: 1;
+	right: 2px;
+	top: 2px;
+	cursor: pointer;
+}
+#logo .left li{
+   display: inline-block;
+   border: 1px solid white;
+   border-radius: 8px;
+   cursor: pointer;
+   margin-top: 15px;
+   padding: 10px;
+   margin-right: 20px;
+   color: white;
+}
+#logo .left{
+  
+   margin-left: 200px;
+}
+#menu{
+	background-color: red;
+	height: 40px;
+	margin-bottom: 100px;
+
+}
+#menu li{
+     display: inline-block;
+     padding-right:20px;
+     padding-top:10px; 
+     padding-bottom: 10px;
+}
+.menu1:hover{
+	background-color: #00cec9;
+}
+#container{
+
+}
+#tinnong img{
+    margin-top: 40px;
+    width: 100%;
+    height: 390px;
+    
+}
+#tinnong{
+	height: 350px;
+}
+#tinnong .left{
+	width: 70%;
+	margin-right: 10px
+}
+#tinnong .right{
+	width: 27%;
+}
+.tinnong .right img{
+	margin-top: -10px;
+}
+

@@ -81,6 +81,7 @@ button{
 #main-right{
 	float: left;
 	width: 80%;
+	margin-bottom: 25px;
 
 
 }
@@ -93,6 +94,7 @@ button{
 	margin-left: 10px;
 	margin-top: 20px;
 	text-align: center;
+	cursor: pointer;
 }
 .news>p{
     padding-top: 10px;
@@ -119,6 +121,7 @@ button{
 .news:hover{
 	width: 32%;
 	background-color: #81ecec;
+
 }
 
 
