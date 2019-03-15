@@ -5,9 +5,10 @@
 }
 *{
 	font-family: 'VT323', monospace;
-	font-size: 20px;
+	font-size: 25px;
+
 }
-#box-model{
+.box-model{
 	/* border-width: 1px;
 	border-color: red;
 	border-style: solid; */
@@ -25,8 +26,9 @@
 	font-size: 50px;
 }
 .rec{
-	width: 700px;
+	width: 80%;
 	height: 300px;
+	margin:  0 auto;
 	background-color: #ccc; 
    border: 1px dotted red ;
 

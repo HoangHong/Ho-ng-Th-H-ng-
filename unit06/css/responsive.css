@@ -9,8 +9,6 @@
 /* ============begin-header======== */
 .nav-list{
 	list-style: none;
-	width:100%;
-    margin: 0 auto;
 
 }
 .nav-list-items{
@@ -27,16 +25,16 @@
 }
 .nav-list-items-small{
 	text-decoration: none;
-	margin-top: 7%;
+    margin-top: 7%;
      padding:20px;
      color: black;
 	
 
 }
 .header{
-	margin: 0 auto;
-	width: 60%;
-	margin-top: 2%;
+    margin: 0 auto;
+	width: 60%; 
+	margin-top: 1%;
 	font-family: 'Quicksand', sans-serif;
 }
 .nav-list-items-small:hover{
