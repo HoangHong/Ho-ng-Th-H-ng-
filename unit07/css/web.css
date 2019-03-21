@@ -270,18 +270,19 @@
   	}
   	.logo{
   		width: 15%;
+  		margin-left: 100px;
   	}
   	.nav-bar1{
 		width: 0%;
   	}
   	.nav-bar-list1{
-  		overflow: hidden;
+  		display: none;
   	}
   	.slide{
   		width: 100%;
   	}
   	.slide-icon{
-  		margin-right: 50px;
+  		margin-right: 25px;
   	}
   	.alinger{
   		width: 400px;
