@@ -1,0 +1,136 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+@font-face{
+	font-family: myfonts;
+	src: url('../fonts/Pattaya-Regular.ttf');
+}
+.wrapper{
+	width: 100%;
+	background-color: #f3f4f5;
+}
+/* =====================begin nav__bar============= */
+.nav__bar{
+	width: 55%;
+	margin:  0 auto;
+	height: 100px;
+	font-family: myfonts;
+
+}
+.nav__bar__menu {
+	list-style: none;
+	
+}
+.nav__bar__menu__child{
+	display: none ;
+	list-style: none;
+	position: absolute;
+	top: 40px;
+    left: 25px;
+}
+.nav__bar__menu__list{
+	display: inline-block;
+	line-height: 50px;
+	padding: 20px;
+	position: relative;
+
+
+}
+.fa-angle-down{
+	padding-left: 10px;
+}
+.nav__bar__menu__list:hover{
+	color: #c3765b;
+	cursor: pointer;
+}
+.nav__bar__menu__child__list >a{
+	text-decoration: none;
+	color: #d7ccc8;
+}
+.nav__bar__menu__list:hover  .nav__bar__menu__child{
+	display: block; 
+}
+/* ==============begin___header================ */
+.header{
+	 height: 500px;
+	background-image: url('../img/10334506213_f571b7dcf9_o-1700x450.jpg');
+	background-repeat: no-repeat;
+}
+.header__wrapper{
+	width: 75%;
+	margin: 0 auto;
+}
+
+.header__title{
+	padding-top: 100px;
+	color: white;
+
+}
+
+.header__title > input{
+	padding:5px 15px;
+	background-color: #d26139d4;
+	border: 0px;
+	cursor: pointer;
+	color: white;
+	font-family: myfonts;
+
+}
+
+.header__title>h1{
+	padding-top: 50px;
+	font-size: 50px;
+}
+.header__title>p{
+	padding-top: 10px;
+	font-size: 20px;
+	color: #ffffffb5;
+}
+.header__box{
+	padding-top: 20px;
+}
+.box{
+	width: 30%;
+	border-top: 1px solid #ffffffb5;
+	float: left;
+	margin-right: 30px;
+	display: flex;
+	flex-direction: row;
+	padding: 20px 0px;
+}
+.header__box__line-1{
+	font-size: 70px;
+	color: #ffffffb5;
+
+}
+.header__box__line-2{
+	padding: 15px;
+}
+.header__box__line-big{
+	font-size: 20px;
+	color: white;
+}
+.header__box__line-small{
+	color:#ffffffb5;
+	padding-top: 10px;
+}
+.clear{
+	clear: both;
+}
+/* ================begin__content=============== */
+.content__box__1{
+	margin: 0 auto;
+	width: 80%;
+}
+.box1{
+	width: 30%;
+	box-shadow: 10px;
+	background-color: white;
+	float: left;
+	margin-right: 15px;
+}
+.box1>img{
+	width: 300px;
+	height: 200px;
+}
