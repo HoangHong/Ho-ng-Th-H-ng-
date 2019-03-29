@@ -1,0 +1,39 @@
+body{
+	background-image: url('../img/IMG_20190131_163331.jpg');
+	font-family: myfonts;
+
+}
+@font-face{
+	font-family: myfonts;
+	src: url('../fonts/Pattaya-Regular.ttf');
+}
+table{
+	border-radius: 15px;
+	border: 1px solid black;
+	width: 60%;
+	height: 300px;
+	color:#55efc4;
+	margin-top: 50px;
+}
+.width{
+	width: 500px;
+	height: 30px;
+	border-radius: 5px;
+	border: 0px;
+}
+.space{
+	padding-left: 30px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.space__1{
+	margin:20px 100px;
+	padding: 10px 20px;
+	background-color: red;
+	border: 0px;
+	color: white;
+	cursor: pointer;
+	font-family: myfonts;
+	border-radius: 5px;
+}

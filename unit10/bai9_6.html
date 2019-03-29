@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Tạo form</title>
+	<link rel="stylesheet" href="css/bai9_6.css">
+	<script type="text/javascript">
+		function btnClick() {
+			var i="";
+			var hoten = document.getElementById(‘hoTen’);
+			if (hoten.value.lenght < 8) {
+				 document.getElementById("ten").innerHTML = "Chỉ nhập giá trị số.";
+
+			}
+
+			}
+	</script>
+</head>
+<body>
+	<center>
+	<form action="" name="formDangKy">
+		<table>
+			<tr >
+				<td class="space">
+					Họ và Tên
+				</td>
+				<td>
+					<input id="hoTen" type="text" name="hoTen" placeholder="Nhập vào họ và tên" class="width" ><span id="ten"></span><br>
+				</td>
+			</tr>
+			<tr >
+				<td class="space">
+					Giới Tính
+				</td>
+				<td>
+					<input type="radio" name="gioiTinh" value="nam">Nam
+					<input type="radio" name="gioiTinh" value="nu" >Nữ
+				</td>
+			</tr>
+			<tr >
+				<td class="space">
+					Email
+				</td>
+				<td>
+					<input type="email" name="mail" placeholder="Nhập vào địa chỉ email" class="width" >
+				</td>
+			</tr>
+			<tr >
+				<td class="space">
+					Số điện thoại
+				</td>
+				<td>
+					<input type="number" name="soDienThoai" placeholder="Nhập vào số điện thoại" class="width">
+				</td>
+			</tr>
+			<tr >
+				<td class="space">
+					Mật Khẩu
+				</td>
+				<td>
+					<input type="password" name="matKhau"  placeholder="Nhập vào mật khẩu" class="width">
+				</td>
+			</tr>
+			<tr >
+				<td class="space">
+					Xác nhận mật khẩu
+				</td>
+				<td>
+					<input type="password" name="NhapLaiMatKhau" placeholder="Nhập lại mật khẩu" class="width">
+				</td>
+			</tr>
+		</table>
+		<input type="submit" name="dangKy" value="Đăng Ký" class="space__1" id="btnClick" onclick="btnClick()">
+		<input type="reset" name="xoaTrang" value="Xóa Trắng" class="space__1" id="btnHuy" onclick="">
+	</form>
+	</center>
+</body>
+</html>

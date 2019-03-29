@@ -3,61 +3,93 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
+	<style type="text/css" media="screen">
+		.required{
+		color:red;
+		}
+	</style>
+	<script type="text/javascript">
+		function load() {
+			var formDangKy = document.getElementsByTagName('form')[0];
+			formDangKy.addEventListener("submit",function () {
+				if (formDangKy.hoTen.value.trim()=="") {
+					alert('Hãy nhập thông tin họ tên');
+				}
+				if (formDangKy.mail.value.trim()=="") {
+					alert('Hãy nhập email');
+				}
+				if (formDangKy.yKien.value.trim()=="") {
+					alert('Hãy nhập mô tả ');
+				}
+				
+
+			});
+			// formDangKy.gioiTinh.value ='nam';
+			formDangKy.gioiTinh[1].checked=true;
+			formDangKy.luaChon.value='BN';
+			// formDangKy.kyNang[1].selected=true;
+			var table =document.getElementsByTagName('table')[0];
+			table.children[0].children[0].style.backgroundColor=" #ff7675";
+			table.children[0].children[9].style.backgroundColor=" #ff7675";
+				
+		
+		}
+	</script>
 </head>
-<body>
-	<form action="">
+<body onload="load()">
+	<form action="" name="formDangKy">
 		<table width=" 40%" bgcolor="#dfe6e9" align="center"
 		height="600px" >
-			<tr align="center" bgcolor="#ff7675">
+			<tr align="center">
 				<td colspan="2">ZENT GROUP</td>
 				
 			</tr>
 			<tr>
-				<td>Họ và tên</td>
-				<td align="left"><input type="text" name="hoTen"></td>
+				<td>Họ và tên<span class="required">*</span>:</td>
+				<td align="left"><input  id="hoTen" type="text" name="hoTen"></td>
 			</tr>
 			<tr>
-				<td>Email</td>
-				<td align="left"><input type="email" name="mail"></td>
+				<td>Email<span class="required">*</span>:</td>
+				<td align="left"><input id="mail"type="email" name="mail"></td>
 			</tr>
 			<tr>
 				<td>Số điện thoại</td>
 				<td align="left"><input type="number" name="sdt"></td>
 			</tr>
 			<tr>
-				<td>Quê Quán</td>
+				<td>Quê Quán <span class="required">*</span>:</td>
 				<td align="left">
-					<select>
+					<select name="luaChon">
 					<option value="HN">Hà Nội</option>
 					<option value="NĐ">Nam Định</option>
 					<option value="HP">Hải Phòng</option>
-					<option value="BN" selected="">Bắc Ninh</option>
+					<option value="BN">Bắc Ninh</option>
 				</select></td>
 			</tr>
 			<tr>
-				<td>Giới Tính</td>
+				<td>Giới Tính<span class="required">*</span>:</td>
 				<td align="left">
 					<input type="radio" name="gioiTinh" value="nam" placeholder="">Nam
-					<input type="radio" name="gioiTinh" value="nu" placeholder="" checked="">Nữ
+					<input type="radio" name="gioiTinh" value="nu" placeholder="">Nữ
 				</td>
 			</tr>
 			<tr>
-				<td>Kỹ Năng</td>
-				<td align="left"><input type="checkbox" name="kyNang" checked="">HTML
+				<td>Kỹ Năng<span class="required">*</span>:</td>
+				<td align="left"><input type="checkbox" name="kyNang" >HTML
 					<input type="checkbox" name="kyNang">CSS
 					<input type="checkbox" name="kyNang">JS
 					<input type="checkbox" name="kyNang">BOOTSTRAP
 				</td>
 				</tr>
 				<tr>
-					<td>Ngày sinh</td>
+					<td>Ngày sinh<span class="required">*</span>:</td>
 					<td align="left"><input type="date" name="ngaySinh"></td>
 				</tr>
 				<tr>
-					<td>Miêu tả</td>
-					<td align="left"><textarea name="yKien" placeholder="Ý kiến khác..." rows="5" cols="30"></textarea></td>
+					<td>Miêu tả<span class="required">*</span>:</td>
+					<td align="left"><textarea  name="yKien" placeholder="Ý kiến khác..." rows="5" cols="30"></textarea></td>
 				</tr>
-				<tr align="center" bgcolor="#ff7675">
+				<tr align="center">
 					<td colspan="2" >
 						<input type="submit" name="guiDK" value="Submit">
 						<input type="reset" name="nhapLai" value="Reset">
