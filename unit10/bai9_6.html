@@ -5,19 +5,21 @@
 	<title>Tạo form</title>
 	<link rel="stylesheet" href="css/bai9_6.css">
 	<script type="text/javascript">
-		function btnClick() {
-			var i="";
-			var hoten = document.getElementById(‘hoTen’);
-			if (hoten.value.lenght < 8) {
-				 document.getElementById("ten").innerHTML = "Chỉ nhập giá trị số.";
-
-			}
-
-			}
+		function load() {
+				var formDangKy = document.getElementsByTagName('form')[0];
+				formDangKy.addEventListener('submint', function () {
+					if (formDangKy.hoTen.value.lenght < 8) 
+					{
+						document.ten.
+					}
+					
+				});
+		}
+	
 	</script>
 </head>
-<body>
-	<center>
+<body onload="load()">
+
 	<form action="" name="formDangKy">
 		<table>
 			<tr >
@@ -25,7 +27,8 @@
 					Họ và Tên
 				</td>
 				<td>
-					<input id="hoTen" type="text" name="hoTen" placeholder="Nhập vào họ và tên" class="width" ><span id="ten"></span><br>
+					<input  type="text" name="hoTen" placeholder="Nhập vào họ và tên" class="width" >
+					<span id="ten"></span>
 				</td>
 			</tr>
 			<tr >
@@ -42,7 +45,7 @@
 					Email
 				</td>
 				<td>
-					<input type="email" name="mail" placeholder="Nhập vào địa chỉ email" class="width" >
+					<input type="email" name="mail" placeholder="Nhập vào địa chỉ email" class="width" ><span id="nhapMail"></span>
 				</td>
 			</tr>
 			<tr >
@@ -50,7 +53,7 @@
 					Số điện thoại
 				</td>
 				<td>
-					<input type="number" name="soDienThoai" placeholder="Nhập vào số điện thoại" class="width">
+					<input type="number" name="soDienThoai" placeholder="Nhập vào số điện thoại" class="width"><span id="num"></span>
 				</td>
 			</tr>
 			<tr >
@@ -66,13 +69,13 @@
 					Xác nhận mật khẩu
 				</td>
 				<td>
-					<input type="password" name="NhapLaiMatKhau" placeholder="Nhập lại mật khẩu" class="width">
+					<input type="password" name="NhapLaiMatKhau" placeholder="Nhập lại mật khẩu" class="width"><span id="nhapLaiMK"></span>
 				</td>
 			</tr>
 		</table>
-		<input type="submit" name="dangKy" value="Đăng Ký" class="space__1" id="btnClick" onclick="btnClick()">
-		<input type="reset" name="xoaTrang" value="Xóa Trắng" class="space__1" id="btnHuy" onclick="">
+		<input type="submit" name="dangKy" value="Đăng Ký" class="space__1" >
+		<input type="reset" name="xoaTrang" value="Xóa Trắng" class="space__1" >
 	</form>
-	</center>
+
 </body>
 </html>
