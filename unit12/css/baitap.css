@@ -61,8 +61,8 @@ h3{
     margin-right: 30px;
     opacity: 0.3;
 }
-fieldset{
-	display: none;
+/* fieldset{
+  display: block;
 	position: absolute;
 	top: 100px;
 	width: 92%;
@@ -71,7 +71,7 @@ fieldset{
 	border-radius: 7px;
 	border: 0;
 	height: 500px;
-}
+} */
 .right:hover{
 	font-size: 18px;
 	text-decoration: underline;
