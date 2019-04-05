@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	
+	<link rel="stylesheet" href="css/baitap.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="fontawesome/all.min.css">
+	<script src="js/wow.min.js"></script>
+	
+
+
+</head>
+<body>
+	<form action="" class ="content" >
+		<h3>1.Account</h3>
+		<fieldset class="content__body">
+			<legend>Account Information</legend>
+			<label for="userName">User name * <span>(>= 8 kí tự).</span></label>
+			<input type="text" name="userName" value="" placeholder=""  required>
+			<label for="pass">Password <span>(>= 6 kí tự)</span>*</label>
+			<input type="password" name="pass" value="" placeholder="" id="pass" required >
+			<label for="confPass">Confirm Password *</label>
+			<input type="password" name="confPass" value="" placeholder="" id="pass" required>
+			<p>(*) Mandatory</p>
+		</fieldset>
+		<h3>2.Profile</h3>
+		<fieldset class="content__body">
+			<legend>Profile Information</legend><br>
+
+			<label for="name">First name *</label><br>
+			<input id="userName" name="name" type="text" required><br>
+			<label for="lastName">Last name *</label><br>
+			<input id="lastName" name="lastName" type="text" required><br>
+			<label for="email">Email *</label><br>
+			<input id="email" name="email" type="email" required><br>
+			<label for="address" >Address</label><br>
+			<input id="address" name="address" type="text" required><br>
+			<label for="age">Age (The warning step will show up if age is less than 18) *</label><br>
+			<input id="age" name="age" type="number" required><br>
+			<p>(*) Mandatory</p>
+		</fieldset>
+		<h3>3.Warning</h3>
+		<fieldset class="content__body">
+			<legend>You are to young</legend><br>
+
+			<p>Please go away ;-)</p><br>
+		</fieldset>
+		<h3>4.Finish</h3>
+		<fieldset class="content__body">
+			<legend>Terms and Conditions</legend><br>
+
+			<input id="accept" name="accept" type="checkbox" required> <label for="accept">I agree with the Terms and Conditions.</label>
+		</fieldset>
+		<div id="btn">
+			<input class="right" type="submit" name="next" value="Next" onclick="next()" id="next">
+			<input class="right" type="submit" name="prev" value="Previous" onclick="previous()" id="prev">
+		</div>
+			
+			
+	</form>
+	<script src="js/jquery-3.3.1.min.js" type="text/javascript" charset="utf-8" async defer></script>
+	<script src="js/jquery.validate.js"></script>
+	<script src="js/baitap.js"></script>
+
+</body>
+</html>
