@@ -1,0 +1,64 @@
+*{
+	margin: 0;
+	padding: 0;
+}	
+#header{
+	background-image: url('../img/bg-masthead.jpg');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.header__jumbotron{
+ text-align: center;
+	color: white;
+	padding: 70px;
+	
+	font-family: 'Domine', serif;
+}
+.btn{
+	background-color: #e74c3c;
+	border-radius:20px;
+	
+}
+.btn-1{
+	color: white;
+}
+hr{
+	width: 7%;
+	border: 2px solid orange;
+}
+.jumbotron{
+	text-align: center;
+	background-color: #e15f41;
+}
+.color-btn{
+	background-color: white;
+	color: black;
+}
+.color-text{
+	color: #3dc1d3;
+}
+.middle-text{
+	text-align: center;
+	padding: 50px;
+}
+.icon-size-color{
+	font-size: 50px;
+	color: red;
+}
+ .space-default{
+	padding: 0px;
+}
+ 
+.color-jumbotron{
+	background-color: #2d3436 !important;
+}
+.fa-phone{
+	font-size: 50px;
+}
+.fa-envelope{
+	font-size: 50px;
+}
+.navbar-toggler-icon{
+	color: white !important;
+}
