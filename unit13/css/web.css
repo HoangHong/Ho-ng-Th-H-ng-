@@ -46,13 +46,10 @@ hr{
 	font-size: 50px;
 	color: red;
 }
- .space-default{
-	padding: 0px;
-}
- 
+
 .color-jumbotron{
 	background-color: #2d3436 !important;
-	padding: 70px;
+	padding-top: 50px;
 }
 .fa-phone{
 	font-size: 50px;
