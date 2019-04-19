@@ -1,0 +1,1038 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Project</title>
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="fontawesome/all.min.css">
+  <link rel="stylesheet" href="css/toastr.min.css">
+  <!-- <link rel="stylesheet" href="css/slide1.css"> -->
+  <link rel="stylesheet" href="css/index.css">
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.validate.min.js"></script>
+  <script src="js/toastr.min.js"></script>
+  <!-- <script src="js/slide.js"></script> -->
+  <script src="js/wow.min.js"></script>
+  <!-- <script src="js/slide1.js"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+  <script src="js/jquery.counterup.min.js"></script>
+
+  <script type="text/javascript" src="js/jquery.filterizr.min.js"></script>
+  <script src="js/controls.js"></script>
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
+  <script>
+    new WOW().init();
+    $(document).ready(function() {
+      $('.counter').counterUp({
+        delay: 10,
+        time: 1000
+      });
+    });
+
+    $(function() {
+      var f = $('.filtr-container').filterizr({ controlsSelector: '.fltr-controls' });
+      $('.color-container-1').filterizr({ controlsSelector: '.color-controls-1' });
+      $('.color-container-2').filterizr({ controlsSelector: '.color-controls-2', layout: 'packed' });
+      $('.color-container-3').filterizr({ controlsSelector: '.color-controls-3', layout: 'sameHeight' });
+      $('.color-container-4').filterizr({ controlsSelector: '.color-controls-4', layout: 'packed' });
+      $('.color-container-5').filterizr({ controlsSelector: '.color-controls-5', layout: 'horizontal' });
+      $('.color-container-6').filterizr({ controlsSelector: '.color-controls-6', layout: 'vertical' });
+      window.filterizr = f;
+    });
+  </script> 
+  
+</head>
+<body data-spy="scroll" data-target="#navbar" data-offset="0">
+  <div class="header ">
+    <div class="container">
+      <nav id="navbar" class="navbar navbar-expand-lg">
+        <a class="navbar-brand color_organe" href="#">LOGIC</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse flex-row-reverse" id="navbarNavAltMarkup">
+          <ul class="nav nav-pills navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link color_organe" href="#home">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link color_organe" href="#serv">SERVICE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link color_organe" href="#team">TEAMS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link color_organe" href="#works">WORKS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link color_organe" href="#test">TESTIMONIAL</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link color_organe" href="#contact">CONTACT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link color_organe" href="#"><i class="fas fa-search"></i></a>
+            </li>
+          </ul>
+
+        </div>
+      </nav>
+      <div id="home">
+        
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="item2 item1 jumbotron color_organe   ">
+
+                <h1 class="display-4">WELCOME TO OUR LOGIC</h1>
+                <p class="lead">We Make Awesome Theme For Your Business</p>
+                <a class="btn btn-success btn-lg" href="#" role="button">Learn more</a>
+              </div>
+
+            </div>
+            <div class="carousel-item">
+              <div class="item2 item1 jumbotron color_organe   ">
+
+                <h1 class="display-4">WELCOME TO OUR LOGIC</h1>
+                <p class="lead">We Make Awesome Theme For Your Business</p>
+                <a class="btn btn-success btn-lg" href="#" role="button">Learn more</a>
+              </div>
+
+            </div>
+            <div class="carousel-item">
+              <div class="item2 item1 jumbotron color_organe   ">
+
+                <h1 class="display-4">WELCOME TO OUR LOGIC</h1>
+                <p class="lead">We Make Awesome Theme For Your Business</p>
+                <a class="btn btn-success btn-lg" href="#" role="button">Learn more</a>
+              </div>
+
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators " role="button" data-slide="next">
+            <span class="carousel-control-next-icon " aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class=" col-6 col-lg-3 col-md-3 col-sm-3">
+        <div class="img1">
+          <i class="fas fa-map-marker-alt"></i>
+          <p>WEB DESIGN</p>
+        </div>
+      </div>
+      <div class="col-6 col-lg-3 col-md-3 col-sm-3">
+        <div class="img1">
+          <i class="fas fa-map-marker-alt"></i>
+          <p>APP DESIGN</p>
+        </div>  
+
+      </div>
+      <div class="col-6 col-lg-3 col-md-3 col-sm-3">
+
+        <div class="img1">
+
+
+          <i class="fas fa-map-marker-alt"></i>
+          <p>GRAPHIC DESIGN</p>
+        </div>
+      </div>
+      <div class="col-6 col-lg-3 col-md-3 col-sm-3">
+        <div class="img1">
+          <i class="fas fa-map-marker-alt"></i>
+          <p>GAME DESIGN</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="serv">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-7 col-12 col-md-7 col-sm-7">
+          <div class="jumbotron jumbotron1">
+            <h2>WEB DESIGN ONE</h2>
+            <p class="border-lagre"></p>
+            <p class="border-small"></p>
+            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.
+            It uses utility classes for typography and spacing to space content out within the larger container.It uses utility classes for typography and spacing to space content out within the larger container.It uses utility classes for typography and spacing to space content out within the larger container</p>
+            <a class="btn btn-lg btn1" href="#" role="button">Learn more</a>
+          </div>
+        </div>
+        <div class="col-lg-5 col-12 col-md-5 col-sm-5">
+          <img src="images/stab1.png" alt="" class="fix-width">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-7 "   >
+          <h2>FEATURED WORK</h2>
+
+          <p class="border-lagre"></p>
+
+          <p class="border-small"></p>
+        </div>
+        <div class="col-lg-5"></div>
+      </div>
+
+      <div class="row">
+
+        <div class="col-lg-6 col-12 col-md-6 col-sm-6">
+          <div id="carouselExampleControls" class="carousel slide space3" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/pf7.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/pf8.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/pf9.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-6 col-12 col-md-6 col-sm-6">
+          <div class="jumbotron jumbotron1 jbt">
+            <h4 class="">HAND WITH A WATCH</h4>
+            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.It uses utility classes for typography and spacing to space content out within the larger container.It uses utility classes for typography and spacing to space content out within the larger container.</p>
+            <div class="space">
+              <p><span class="text-large">
+                Client:
+              </span>Dalit Lor</p>
+              <p><span class="text-large">
+                Deiverd:
+              </span>Sunday,15 August,2015</p>
+              <p><span class="text-large">
+                Tags:
+              </span>Hand, Watch, Black, Tree</p>
+            </div>
+            <a class="btn  btn-lg" href="#" role="button">Launch now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row serv1">
+      <div class="col-lg-4">
+
+      </div>
+      <div class="col-lg-4">
+        <center>
+
+          <div class="middle">
+            <img src="images/play.png" alt="">
+            <h1>WATCH OUR INTRO</h1>
+          </div>
+        </center>
+      </div>
+      <div class="col-lg-4">
+
+      </div>
+    </div>
+    <div class="container">
+      <div class="row space2">
+        <div class="col-lg-7"   >
+          <h2>ABOUT LOGIC</h2>
+
+          <p class="border-lagre"></p>
+
+          <p class="border-small"></p>
+        </div>
+        <div class="col-lg-5"></div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="row space3 space2">
+            <div class="img2 col-lg-3 col-md-3 col-sm-3 col-3">
+              <i class="fas fa-mug-hot"></i>
+            </div>
+            <div class="col-lg-9 col-md-9 col-sm-9 col-9">
+              <h4>RESPONSIVE DESIGN</h4>
+              <p>Diamlorem per molestie! Interdum laboriosam alia
+                Diamlorem per molestie! Interdum laboriosam alia
+                Diamlorem per molestie! Interdum laboriosam alia
+                Diamlorem per molestie! Interdum laboriosam alia
+              </p>
+            </div>
+          </div>
+          <div class="row space3">
+            <div class="img2 col-lg-3 col-md-3 col-sm-3 col-3">
+              <i class="fas fa-paint-brush"></i>
+            </div>
+            <div class="col-lg-9 col-md-9 col-sm-9 col-9">
+              <h4>EASY TO CUSTOMIZE</h4>
+              <p>Diamlorem per molestie! Interdum laboriosam alia
+                Diamlorem per molestie! Interdum laboriosam alia
+                Diamlorem per molestie! Interdum laboriosam alia
+                Diamlorem per molestie! Interdum laboriosam alia
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="img2 col-lg-3 col-md-3 col-sm-3 col-3">
+              <i class="fas fa-headphones"></i>
+            </div>
+            <div class="col-lg-9 col-md-9 col-sm-9 col-9">
+              <h4>LIFE TIME SUPPORT</h4>
+              <p>Diamlorem per molestie! Interdum laboriosam alia
+                Diamlorem per molestie! Interdum laboriosam alia
+                Diamlorem per molestie! Interdum laboriosam alia
+                Diamlorem per molestie! Interdum laboriosam alia
+              </p>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-lg-6">
+          <img src="images/choose.png" alt="" class="fix-width">
+        </div>
+      </div>
+
+      <div class="row space2">
+        <div class="col-lg-6 col-12 col-md-6 col-sm-6">
+          <div class="row space3">
+            <div class="col-lg-4 col-4 col-md-4 col-sm-4 img3">
+              <h6>OUR MISSION</h6>
+            </div>
+            <div class="col-lg-4 col-4 col-md-4 col-sm-4 img3 ">
+              <h6>OUR GOAL</h6>
+            </div>
+            <div class="col-lg-4 col-4 col-md-4 col-sm-4 img3 ">
+              <h6>ACHIVEMENTS</h6>
+            </div>
+          </div>
+          <div class="row">
+            <p>Est perspiciatis eiusmod lacinia et nec integer expedita facilisi aliquid earum potenti temporibus interdum per proin hendrerit numquam cumque adipisicing fringilla! Nibh dignissimos aliquam tenetur conubia? Dolore eros mus? Neque repellat iste, cursus molestias platea nonummy, esse montes pretium libero bibendum explicabo? Nostrum quam veritatis. Iure consequat massa proident libero fusce hic nobis mollit ab, similique nonummy litora alias ut. Hendrerit doloremque sapiente nascetur! Vel quos sociis ultricies praesentium, nunc, anim aliquid magnam laboris eos magnis! Debitis posuere, dolorem tellus, temporibus possimus parturient eget amet pellentesque venenatis senectus architecto sed eligendi officiis! Quisquam occaecati. Mauris commodo distinctio arcu, magnis nostra.</p>
+          </div>
+          <div class="row">
+            <div class="col-lg-6 col-sm-6 col-md-6 col-12">
+              <p>
+                <i class="fas fa-check-square">
+
+                </i>
+                Est perspiciatis eiusmod lacinia et nec integer 
+
+              </p>
+              <p>
+                <i class="fas fa-check-square">
+
+                </i>
+                Est perspiciatis eiusmod lacinia et nec integer 
+
+              </p>
+              <p>
+                <i class="fas fa-check-square">
+
+                </i>
+                Est perspiciatis eiusmod lacinia et nec integer
+              </p>
+            </div>
+            <div class="col-lg-6 col-sm-6 col-md-6 col-12">
+              <p>
+                <i class="fas fa-check-square">
+
+                </i>
+                Est perspiciatis eiusmod lacinia et nec integer
+
+              </p>
+              <p>
+                <i class="fas fa-check-square">
+
+                </i>
+                Est perspiciatis eiusmod lacinia et nec integer 
+
+              </p>
+              <p>
+                <i class="fas fa-check-square">
+
+                </i>
+                Est perspiciatis eiusmod lacinia et nec integer 
+
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <h4>PHOTOSHOP</h4>
+          <div class="progress space3">
+
+            <div class="progress-bar" role="progressbar" style="width: 79%;" aria-valuenow="79" aria-valuemin="0" aria-valuemax="100">79%</div>
+          </div>
+          <h4>HTML/CSS</h4>
+          <div class="progress space3">
+            <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+          </div>
+          <h4>JAVASCRIPT</h4>
+          <div class="progress space3">
+            <div class="progress-bar" role="progressbar" style="width: 69%;" aria-valuenow="69" aria-valuemin="0" aria-valuemax="100">69%</div>
+          </div>
+          <h4>WORDPRESS</h4>
+          <div class="progress">
+
+            <div class="progress-bar" role="progressbar" style="width: 92%;" aria-valuenow="92" aria-valuemin="0" aria-valuemax="100">92%</div>
+          </div>
+        </div>
+      </div>
+
+    </div>  
+    <div class="img4 space2">
+      <div class="container img4-counter">
+        <div class="row">
+          <div class="col-lg-3">
+            <center>
+              <p><span class="counter " style="">1,234,567.00</span></p>
+              <p><i class="far fa-thumbs-up far1"></i></p>
+              <p class="text1">CREATE DESIGN</p>
+            </center>
+          </div>
+          <div class="col-lg-3">
+            <center>
+              <p><span class="counter " style="">1234</span></p>
+              <p><i class="far fa-dizzy far1"></i></p>
+              <p class="text1">AWARDS WON</p>
+            </center>
+          </div>
+          <div class="col-lg-3">
+            <center>
+              <p><span class="counter " style="">1570</span></p>
+              <p><i class="far fa-sun far1"></i></p>
+              <p class="text1">HAPPY CLIENTS</p>
+            </center>
+          </div>
+          <div class="col-lg-3">
+            <center>
+              <p><span class="counter " style="">345</span></p>
+              <p><i class="far fa-star far1"></i></p>
+              <p class="text1">CUP OF COFFEE</p>
+            </center>
+          </div>
+        </div>
+
+
+
+
+      </div>
+    </div>  
+    <div class="container">
+      <div class="row space2">
+        <div class="col-lg-7"   >
+          <h2>OTHER SERVICES</h2>
+
+          <p class="border-lagre"></p>
+
+          <p class="border-small"></p>
+        </div>
+        <div class="col-lg-5"></div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="row space2">
+            <div class="img2 col-lg-3 col-md-3 col-sm-3 col-3">
+              <i class="far fa-heart far2"></i>
+            </div>
+            <div class="col-lg-9 col-md-9 col-9 col-sm-9 space6">
+              <h5>CREATE DESIGN</h5>
+
+            </div>
+          </div>
+          <div class="row">
+            <p>Diamlorem per molestie! Interdum laboriosam alia
+              Diamlorem per molestie! Interdum laboriosam alia
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="row space2">
+            <div class="img2 col-lg-3 col-md-3 col-sm-3 col-3">
+              <i class="far fa-surprise far2"></i>
+            </div>
+            <div class="col-lg-9 col-md-9 col-9 col-sm-9 space6">
+              <h5>WEB DEVELOPMENT</h5>
+
+            </div>
+          </div>
+          <div class="row">
+            <p>Diamlorem per molestie! Interdum laboriosam alia
+              Diamlorem per molestie! Interdum laboriosam alia
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="row space2">
+            <div class="img2 col-lg-3 col-md-3 col-sm-3 col-3">
+              <i class="far fa-image far2"></i>
+            </div>
+            <div class="col-lg-9 col-md-9 col-9 col-sm-9 space6">
+              <h5>VIDEO EDITING</h5>
+
+            </div>
+          </div>
+          <div class="row">
+            <p>Diamlorem per molestie! Interdum laboriosam alia
+              Diamlorem per molestie! Interdum laboriosam alia
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="row space2">
+            <div class="img2 col-lg-3 col-md-3 col-sm-3 col-3">
+              <i class="far fa-heart far2"></i>
+            </div>
+            <div class="col-lg-9 col-md-9 col-9 col-sm-9 space6">
+              <h5>CREATE DESIGN</h5>
+
+            </div>
+          </div>
+          <div class="row">
+            <p>Diamlorem per molestie! Interdum laboriosam alia
+              Diamlorem per molestie! Interdum laboriosam alia
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="row space2">
+            <div class="img2 col-lg-3 col-md-3 col-sm-3 col-3">
+              <i class="far fa-surprise far2"></i>
+            </div>
+            <div class="col-lg-9 col-md-9 col-9 col-sm-9 space6">
+              <h5>WEB DEVELOPMENT</h5>
+
+            </div>
+          </div>
+          <div class="row">
+            <p class="">Diamlorem per molestie! Interdum laboriosam alia
+              Diamlorem per molestie! Interdum laboriosam alia
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="row space2">
+            <div class="img2 col-lg-3 col-md-3 col-sm-3 col-3">
+              <i class="far fa-image far2"></i>
+            </div>
+            <div class="col-lg-9 col-md-9 col-9 col-sm-9 space6">
+              <h5>VIDEO EDITING</h5>
+
+            </div>
+          </div>
+          <div class="row">
+            <p>Diamlorem per molestie! Interdum laboriosam alia
+              Diamlorem per molestie! Interdum laboriosam alia
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row space2">
+        <div class="col-lg-7"   >
+          <h2>OTHER SERVICES</h2>
+
+          <p class="border-lagre"></p>
+
+          <p class="border-small"></p>
+        </div>
+        <div class="col-lg-5"></div>
+      </div>
+      <div class="row">
+        <div class="col-lg-3 col-12 col-md-3 col-sm-3 space10">
+          <div class="hovereffect">
+            <img class="img-responsive" src="images/team1.jpg" alt="">
+            <div class="overlay">
+                      <!-- <h2>Effect 11</h2>
+              <p>
+                <a href="#"></a>
+              </p> -->
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-12 col-md-3 col-sm-3 space10">
+          <div class="hovereffect">
+            <img class="img-responsive" src="images/team2.jpg" alt="">
+            <div class="overlay">
+                      <!-- <h2>Effect 11</h2>
+              <p>
+                <a href="#"></a>
+              </p> -->
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-12 col-md-3 col-sm-3 space10">
+          <div class="hovereffect">
+            <img class="img-responsive" src="images/team3.jpg" alt="">
+            <div class="overlay">
+                      <!-- <h2>Effect 11</h2>
+              <p>
+                <a href="#"></a>
+              </p> -->
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-12 col-md-3 col-sm-3 space10">
+          <div class="hovereffect">
+            <img class="img-responsive" src="images/team4.jpg" alt="">
+            <div class="overlay">
+                      <!-- <h2>Effect 11</h2>
+              <p>
+                <a href="#"></a>
+              </p> -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row space2">
+        <div class="col-lg-7"   >
+          <h2>WHY CHOOSE US</h2>
+
+          <p class="border-lagre"></p>
+
+          <p class="border-small"></p>
+        </div>
+        <div class="col-lg-5"></div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="card">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <div class="row">
+                  <div class="img2 col-lg-4 col-md-4 col-sm-4 col-4">
+                    <i class="far fa-image far2 "></i>
+                  </div>
+                  <div class="col-lg-8 col-md-8 col-sm-8 col-8 space7">
+                    <h4>Commodo risus</h4>
+
+                  </div>
+                </div>
+
+              </li>
+              <li class="list-group-item">
+                
+                <p>Aute quisquam, doloribus dignissimos? Commodo risus! Fuga nesciunt veniam posuere, expedita semper odio amet, risus blanditiis amet molestiae, duis odit ullam veritatis fugit metus! Magni fringilla, non ad porro, illum veniam at, urna, deleniti itaque. Adipiscing rhoncus totam eos, phasellus praesentium curabitur? Natoque condimentum! Faucibus, diam ligula sit, pulvinar ullamco adipiscing velit mollitia voluptatem ut iaculis nunc. Litora</p>
+              </li>
+              <li class="list-group-item">
+                <div class="row">
+                  <div class="img2 col-lg-4 col-md-4 col-sm-4 col-4">
+                    <i class="fas fa-bullhorn far2"></i>
+                  </div>
+                  <div class="col-lg-8 col-md-8 col-sm-8 col-8 space7">
+                    <h4>Commodo risus</h4>
+
+                  </div>
+                </div>
+
+              </li>
+              <li class="list-group-item">
+                <div class="row">
+                  <div class="img2 col-lg-4 col-md-4 col-sm-4 col-4">
+                    <i class="fas fa-broadcast-tower far2"></i>
+                  </div>
+                  <div class="col-lg-8 col-md-8 col-sm-8 col-8 space7">
+                    <h4>Commodo risus</h4>
+
+                  </div>
+                </div>
+
+              </li>
+              <li class="list-group-item">
+                <div class="row">
+                  <div class="img2 col-lg-4 col-md-4 col-sm-4 col-4">
+                    <i class="far fa-angry far2"></i>
+                  </div>
+                  <div class="col-lg-8 col-md-8 col-sm-8 col-8 space7">
+                    <h4>Commodo risus</h4>
+
+                  </div>
+                </div>
+
+              </li>
+              <li class="list-group-item">
+                <div class="row">
+                  <div class="img2 col-lg-4 col-md-4 col-sm-4 col-4">
+                    <i class="far far2 fa-address-card"></i>
+                  </div>
+                  <div class="col-lg-8 col-md-8 col-sm-8 col-8 space7">
+                    <h4>Commodo risus</h4>
+
+                  </div>
+                </div>
+
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <img src="images/choose.png" alt="" class="fix-width">
+        </div>
+      </div>
+    </div>
+    <div id="team">
+      <div class="container">
+        <!-- Filter Controls - Simple Mode -->
+        <div class="row">
+        <!-- A basic setup of simple mode filter controls, all you have to do is use data-filter="all"
+          for an unfiltered gallery and then the values of your categories to filter between them -->
+          <ul class="simplefilter">
+            
+            <div class="row space2">
+              <div class="col-lg-7"   >
+                <h2>LATEST PROJECT</h2>
+
+                <p class="border-lagre"></p>
+
+                <p class="border-small"></p>
+              </div>
+              <div class="col-lg-5"></div>
+            </div>
+            <div class="row">
+
+              <li class="fltr-controls active col-lg-2 col-md-2 col-sm-2 col-6" data-filter="all">SHOW ALL</li>
+              <li class="fltr-controls col-lg-2 col-md-2 col-sm-2 col-6" data-filter="1">PHOTOGRAPHY</li>
+              <li class="fltr-controls col-lg-2 col-md-2 col-sm-2 col-6" data-filter="2">BRANDING</li>
+              <li class="fltr-controls col-lg-2 col-md-2 col-sm-2 col-6" data-filter="3">GRAPHIC DESIGN</li>
+              <li class="fltr-controls col-lg-2 col-md-2 col-sm-2 col-6" data-filter="4">DAYSLIGHT</li>
+              <li class="fltr-controls col-lg-2 col-md-2 col-sm-2 col-6 " data-filter="5">NIGHTSPACE</li>
+
+            </div>
+          </ul>
+        </div>
+
+        <div class="row push-down">
+          <div class="filtr-container">
+            <div class="col-xs-6 col-sm-4 col-md-3 filtr-item" data-category="1, 5" data-sort="Busy streets">
+              <img class="img-responsive" src="images/pf3.jpg" alt="sample image">
+              <span class="item-desc">Busy Streets</span>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3 filtr-item" data-category="2, 5" data-sort="Luminous night">
+              <img class="img-responsive" src="images/pf9.jpg" alt="sample image">
+              <span class="item-desc">Luminous night</span>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3 filtr-item" data-category="1, 4" data-sort="City wonders">
+              <img class="img-responsive" src="images/pf3.jpg" alt="sample image">
+              <span class="item-desc">city wonders</span>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3 filtr-item" data-category="3" data-sort="In production">
+              <img class="img-responsive" src="images/pf5.jpg" alt="sample image">
+              <span class="item-desc">in production</span>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3 filtr-item" data-category="3, 4" data-sort="Industrial site">
+              <img class="img-responsive" src="images/pf4.jpg" alt="sample image">
+              <span class="item-desc">industrial site</span>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3 filtr-item" data-category="2, 4" data-sort="Peaceful lake">
+              <img class="img-responsive" src="images/pf2.jpg" alt="sample image">
+              <span class="item-desc">peaceful lake</span>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3 filtr-item" data-category="1, 5" data-sort="City lights">
+              <img class="img-responsive" src="images/pf7.jpg" alt="sample image">
+              <span class="item-desc">city lights</span>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3 filtr-item" data-category="2, 4" data-sort="Dreamhouse">
+              <!-- <img class="img-responsive" src="images/pf8.jpg" alt="sample image"> -->
+              <!-- <span class="item-desc">dreamhouse</span> -->
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3 filtr-item" 
+            data-category="3" data-sort="Restless machines">
+            <img class="img-responsive" src="images/pf9.jpg" alt="sample image">
+            <span class="item-desc">restless machines</span>
+          </div>
+
+        </div>
+    </div>
+
+</div>
+</div>
+</div>
+<div id="works">
+  <div class="img6">
+    <div class="container img4-counter">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="jumbotron jumbotron-fluid">
+              <div class="container">
+                <h1 class="display-4 color-txt">Fluid jumbotron</h1>
+                <p class="lead color-txt">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="jumbotron jumbotron-fluid">
+              <div class="container">
+                <h1 class="display-4 color-txt">Fluid jumbotron</h1>
+                <p class="lead color-txt">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="jumbotron jumbotron-fluid">
+              <div class="container">
+                <h1 class="display-4 color-txt">Fluid jumbotron</h1>
+                <p class="lead color-txt">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="bg">
+    <div class="container bg-space">
+      <div class="row">
+        <div class="col-lg-2 col-6 col-md-2 col-sm-2">
+          <img src="images/clogo1.png" alt="">
+        </div>
+        <div class="col-lg-2 col-6 col-md-2 col-sm-2">
+          <img src="images/clogo2.png" alt="">
+        </div>
+        <div class="col-lg-2 col-6 col-md-2 col-sm-2">
+          <img src="images/clogo3.png" alt="">
+        </div>
+        <div class="col-lg-2 col-6 col-md-2 col-sm-2">
+          <img src="images/clogo4.png" alt="">
+        </div>
+        <div class="col-lg-2 col-6 col-md-2 col-sm-2">
+          <img src="images/clogo5.png" alt="">
+        </div>
+        <div class="col-lg-2 col-6 col-md-2 col-sm-2">
+          <img src="images/clogo9.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="test">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+        <div class="row space2">
+          <div class="col-lg-7"   >
+            <h2>CONTACT INFO</h2>
+
+            <p class="border-lagre"></p>
+
+            <p class="border-small"></p>
+          </div>
+          <div class="col-lg-5"></div>
+        </div>
+        <div class="row space3 space2">
+          <div class="img2 col-lg-3 col-md-3 col-sm-3 col-3">
+            <i class="fas fa-mug-hot"></i>
+          </div>
+          <div class="col-lg-9 col-md-9 col-sm-9 col-9">
+            <h4>VISIT US</h4>
+            <p>Diamlorem per molestie! Interdum laboriosam alia
+
+            </p>
+          </div>
+        </div>
+        <div class="row space3 space2">
+          <div class="img2 col-lg-3 col-md-3 col-sm-3 col-3">
+            <i class="fas fa-bullseye"></i>
+          </div>
+          <div class="col-lg-9 col-md-9 col-sm-9 col-9">
+            <h4>MAIL US</h4>
+            <p>trachnhiemhh@gmail.com
+
+            </p>
+          </div>
+        </div>
+        <div class="row space3 space2">
+          <div class="img2 col-lg-3 col-md-3 col-sm-3 col-3">
+            <i class="far fa-window-close fas"></i>
+          </div>
+          <div class="col-lg-9 col-md-9 col-sm-9 col-9">
+            <h4>CALL US</h4>
+            <p>0123985212
+
+            </p>
+          </div>
+        </div>
+        <div class="row space3 space2">
+          <div class="img2 col-lg-3 col-md-3 col-sm-3 col-3">
+            <i class="fas fa-quote-right"></i>
+          </div>
+          <div class="col-lg-9 col-md-9 col-sm-9 col-9">
+            <h4>WORK US</h4>
+            <p>open:7am and close: 18 pm
+
+            </p>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+
+        <div class="row space2">
+          <div class="col-lg-7"   >
+            <h2>LEAVE MESSAGE</h2>
+
+            <p class="border-lagre"></p>
+
+            <p class="border-small"></p>
+          </div>
+          <div class="col-lg-5"></div>
+        </div>
+        <div class="row">
+          <form class="frm">
+            <div class="form-row">
+              <div class="form-group col-md-6 col-6">
+                <label for="inputEmail4"></label>
+                <input type="text" class="form-control" id="inputEmail4" placeholder="First Name">
+              </div>
+              <div class="form-group col-md-6 col-6">
+                <label for="inputPassword4"></label>
+                <input type="text" class="form-control" id="inputPassword4" placeholder="Last Name">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-6 col-6">
+                <label for="inputEmail4"></label>
+                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+              </div>
+              <div class="form-group col-md-6 col-6">
+                <label for="inputPassword4"></label>
+                <input type="text" class="form-control" id="inputPassword4" placeholder="Subject">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-12 col-12 col-lg-12">
+                <label for="inputEmail4"></label>
+                <textarea name=""  rows="10" placeholder="Message..."></textarea>
+              </div>
+              
+            </div>
+            
+            <button type="submit" class="btn btn-info sbm">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+<div id="contact">
+  <div class="row">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.744064434566!2d105.85235441444487!3d21.002893994037805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ac0b12fe5d7f%3A0xf536809ca4e8f9e3!2sZent+Group!5e0!3m2!1sen!2s!4v1555627719148!5m2!1sen!2s" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+  </div>
+  <div class="bg-footer ">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-12 col-md-3 col-sm-3">
+          <a class="navbar-brand color_red space2" href="#">LOGIC</a>
+          <p class="space-text2">Morbi commodo, sapien quam, sem accumsan dui quas. Omnis mauris, dis natus eleifend quibusdam? Iste aptent. Sem tellus arcu taciti? Dapibus ultricies, facere fusce. Asperiores! Fugiat class, hymenaeos tempus auctor molestie ipsum! Corrupti amet magni ullamcorper, amet dictum! Donec.</p>
+        </div>
+        <div class="col-lg-3 col-12 col-md-3 col-sm-3">
+          <div class="row space2">
+            <div class="col-lg-10"   >
+              <h6>SITEMAP</h6>
+
+              <p class="border-lagre"></p>
+
+              <p class="border-small"></p>
+            </div>
+            <div class="col-lg-2"></div>
+          </div>
+          <p class="txt-1">Accumsan</p>
+          <p class="txt-1">Dictum</p>
+          <p class="txt-1">Omnis</p>
+          <p class="txt-1">Morbi</p>
+          <p class="txt-1">Quam</p>
+
+        </div>
+        <div class="col-lg-3 col-12 col-md-3 col-sm-3">
+          <div class="row space2">
+            <div class="col-lg-10"   >
+              <h6>ACHIVES</h6>
+
+              <p class="border-lagre"></p>
+
+              <p class="border-small"></p>
+            </div>
+            <div class="col-lg-2"></div>
+          </div>
+          <p class="txt-1">Ipsum</p>
+          <p class="txt-1">Class</p>
+          <p class="txt-1">Omnis</p>
+          <p class="txt-1">Morbi</p>
+          <p class="txt-1">Amet</p>
+        </div>
+        <div class="col-lg-3 col-12 col-md-3 col-sm-3">
+          <div class="row space2">
+            <div class="col-lg-10"   >
+              <h6>NEWSLTTER</h6>
+
+              <p class="border-lagre"></p>
+
+              <p class="border-small"></p>
+            </div>
+            <div class="col-lg-2"></div>
+          </div>
+          <p class="txt-1">Mauris</p>
+          <p class="txt-1">Eleifend</p>
+          <p class="txt-1">Omnis</p>
+          <p class="txt-1">Tellus</p>
+          <p class="txt-1">Fusce</p>
+          <a class="btn  btn-lg btn-footer" href="#" role="button">Search<i class="fas fa-long-arrow-alt-right"></i></a>
+        </div>
+
+      </div>
+      
+    </div>
+    <div class="row bg-footer-drak">
+      <div class="col-lg-6 col-12 col-md-6 col-sm-6">
+        <p class="text-footer-3">Made with <i class="fas fa-heart"></i> by <span>BOOTSTAP THEMES</span> 2016. All rights resvered</p>
+      </div>
+      <div class="col-lg-6 col-12 col-md-6 col-sm-6 space2 space3 ">
+        <a href="#" class="icon-footer"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="icon-footer"><i class="fab fa-twitter"></i>
+        </a>
+        <a href="#" class="icon-footer"><i class="far fa-envelope-open"></i></a>
+        <a href="#" class="icon-footer"><i class="fab fa-google-plus-g"></i></a>
+        <a href="#" class="icon-footer"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>

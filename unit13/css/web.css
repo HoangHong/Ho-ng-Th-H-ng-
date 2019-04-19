@@ -11,7 +11,7 @@
 .header__jumbotron{
  text-align: center;
 	color: white;
-	padding: 70px;
+	 padding: 70px;
 	
 	font-family: 'Domine', serif;
 }
@@ -59,4 +59,11 @@ hr{
 }
 .navbar-toggler-icon{
 	color: white !important;
+}
+.row{
+	margin-right: 0px;
+}
+.space-defalut{
+	padding-right: 0px;
+	padding-left: 0px;
 }
